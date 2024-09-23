@@ -1,0 +1,61 @@
+:root {
+  background-color: white;
+}
+
+.body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/* Each artist card styling */
+.artist-card {
+  display: flex;
+  gap: 1em;
+  background: #eee;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  align-items: center;
+  height: 12em;
+}
+
+.artist-card img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin-right: 50px;
+}
+
+.artist-details {
+  text-align: left;
+}
+
+.artist-details h2 {
+  margin: 10 0 40 0;
+  font-size: 30px;
+}
+
+.artist-detail-content {
+  margin: 5px 0 20px 0;
+  font-size: 20px;
+}
+
+.artist-detail-content p {
+  margin: 0;
+}
+
